@@ -1,0 +1,24 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    tansform: translateX(0%);
+  }
+}
+
+.box {
+  animation: slide-in 1000ms;
+  animation-timing-function: linear;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: slateblue;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-align: center;
+}
