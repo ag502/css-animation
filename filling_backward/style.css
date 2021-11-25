@@ -1,0 +1,27 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.box {
+  animation: slide-in 1000ms;
+  animation-delay: 500ms;
+  animation-fill-mode: backwards;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: slateblue;
+  padding: 8px;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-align: center;
+}
